@@ -1,0 +1,11 @@
+kernel_image=uImage
+kernel_load_address=0x2080000
+devicetree_image=devicetree.dtb
+devicetree_load_address=0x2000000
+bitfile=base_system_wrapper.bit
+bitfile_load_address=0x4000000
+
+uenvcmd=run adi_sdboot
+adi_sdboot=echo Starting Linux... && fatload mmc 0 ${bitfile_load_address} ${bitfile} && fpga loadb 0 ${bitfile_load_address} $filesize && fatload mmc 0 ${kernel_load_address} ${kernel_image} && fatload mmc 0 ${devicetree_load_address} ${devicetree_image} && bootm ${kernel_load_address} - ${devicetree_load_address}
+
+bootargs=console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait
