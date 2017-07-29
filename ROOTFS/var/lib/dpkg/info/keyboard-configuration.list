@@ -1,6 +1,0 @@
-/etc
-/etc/init
-/etc/init/console-setup.conf
-/etc/init.d
-/etc/init.d/keyboard-setup
-/etc/init.d/console-setup

@@ -6,12 +6,10 @@ Your SD Card should have the following partitions:
 BOOTFS: Contains all files needed for bootfs.
 Use: Copy any old way you like to the BOOTFS partition.
 
-ROOTFS: Contains all files needed for rootfs.
-Use: sudo cp -rp source_files destination_files
-  source_files = location of this repos ROOTFS folder.
-  destination_files = location of SD cards ROOTFS mount.
+ROOTFS: Contains a lzma archive with files needed for rootfs.
+Use: sudo tar --lzma -xvpf /path/to/backup.tar.lzma -C /location/of/rootfs --numeric-owner
   
-Operation System Details:
+Operating System Details:
 USERNAME: zybo
 PASSWORD: zybo
 System Type: Ubuntu 16.04 ARM
