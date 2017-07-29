@@ -1,0 +1,63 @@
+update-alternatives 2017-02-15 20:17:07: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2017-02-15 20:17:07: link group awk updated to point to /usr/bin/mawk
+update-alternatives 2017-02-15 20:17:19: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2017-02-15 20:17:24: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
+update-alternatives 2017-02-15 20:17:24: link group rmt updated to point to /usr/sbin/rmt-tar
+update-alternatives 2017-02-15 20:17:27: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2017-02-15 20:17:27: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2017-02-15 20:17:27: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
+update-alternatives 2017-02-15 20:17:27: link group w updated to point to /usr/bin/w.procps
+update-alternatives 2017-02-15 20:17:28: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2017-02-15 20:17:28: link group pager updated to point to /bin/more
+update-alternatives 2017-02-15 20:17:28: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
+update-alternatives 2017-02-15 20:17:41: run with --remove builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2017-02-15 20:17:41: link group builtins.7.gz fully removed
+update-alternatives 2017-02-15 20:17:42: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2017-02-15 20:17:42: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2017-02-15 20:17:46: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2017-02-15 20:17:46: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
+update-alternatives 2017-02-15 20:17:46: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
+update-alternatives 2017-02-15 20:17:52: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
+update-alternatives 2017-07-20 23:05:27: run with --install /usr/bin/editor editor /bin/nano 40 --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2017-07-20 23:05:27: link group editor updated to point to /bin/nano
+update-alternatives 2017-07-20 23:05:27: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.gz pico.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2017-07-20 23:05:27: link group pico updated to point to /bin/nano
+update-alternatives 2017-07-20 23:05:49: run with --remove builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2017-07-20 23:05:49: link group builtins.7.gz fully removed
+update-alternatives 2017-07-20 23:05:50: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2017-07-20 23:05:50: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2017-07-20 23:05:56: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2017-07-20 23:05:56: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
+update-alternatives 2017-07-20 23:13:21: run with --install /usr/bin/write write /usr/bin/bsd-write 100 --slave /usr/share/man/man1/write.1.gz write.1.gz /usr/share/man/man1/bsd-write.1.gz
+update-alternatives 2017-07-20 23:13:21: link group write updated to point to /usr/bin/bsd-write
+update-alternatives 2017-07-20 23:13:21: run with --install /usr/bin/from from /usr/bin/bsd-from 10 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/bsd-from.1.gz
+update-alternatives 2017-07-20 23:13:21: link group from updated to point to /usr/bin/bsd-from
+update-alternatives 2017-07-20 23:13:48: run with --install /usr/lib/arm-linux-gnueabihf/libtxc_dxtn.so libtxc-dxtn-arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf/libtxc_dxtn_s2tc.so.0 10
+update-alternatives 2017-07-20 23:13:48: link group libtxc-dxtn-arm-linux-gnueabihf updated to point to /usr/lib/arm-linux-gnueabihf/libtxc_dxtn_s2tc.so.0
+update-alternatives 2017-07-20 23:13:57: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2017-07-20 23:13:57: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2017-07-20 23:13:58: run with --force --install /etc/ld.so.conf.d/arm-linux-gnueabihf_EGL.conf arm-linux-gnueabihf_egl_conf /usr/lib/arm-linux-gnueabihf/mesa-egl/ld.so.conf 500
+update-alternatives 2017-07-20 23:13:58: link group arm-linux-gnueabihf_egl_conf updated to point to /usr/lib/arm-linux-gnueabihf/mesa-egl/ld.so.conf
+update-alternatives 2017-07-20 23:13:58: run with --force --install /etc/ld.so.conf.d/arm-linux-gnueabihf_GL.conf arm-linux-gnueabihf_gl_conf /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf 500 --slave /usr/lib/arm-linux-gnueabihf/xorg/extra-modules arm-linux-gnueabihf_xorg_extra_modules /usr/lib/arm-linux-gnueabihf/xorg/x11-extra-modules
+update-alternatives 2017-07-20 23:13:58: link group arm-linux-gnueabihf_gl_conf updated to point to /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf
+update-alternatives 2017-07-20 23:14:00: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/xterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/xterm.1.gz
+update-alternatives 2017-07-20 23:14:00: link group x-terminal-emulator updated to point to /usr/bin/xterm
+update-alternatives 2017-07-20 23:14:00: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/uxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/uxterm.1.gz
+update-alternatives 2017-07-20 23:14:00: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/koi8rxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/koi8rxterm.1.gz
+update-alternatives 2017-07-20 23:14:01: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/lxterm 30 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/lxterm.1.gz
+update-alternatives 2017-07-20 23:14:01: link group x-terminal-emulator updated to point to /usr/bin/lxterm
+update-alternatives 2017-07-20 23:23:52: run with --remove x-terminal-emulator /usr/bin/koi8rxterm
+update-alternatives 2017-07-20 23:23:52: run with --remove x-terminal-emulator /usr/bin/uxterm
+update-alternatives 2017-07-20 23:23:52: run with --remove x-terminal-emulator /usr/bin/xterm
+update-alternatives 2017-07-20 23:23:52: run with --remove x-terminal-emulator /usr/bin/lxterm
+update-alternatives 2017-07-20 23:23:52: link group x-terminal-emulator fully removed
+update-alternatives 2017-07-20 23:23:56: run with --remove libtxc-dxtn-arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf/libtxc_dxtn_s2tc.so.0
+update-alternatives 2017-07-20 23:23:56: link group libtxc-dxtn-arm-linux-gnueabihf fully removed
+update-alternatives 2017-07-20 23:23:58: run with --remove arm-linux-gnueabihf_egl_conf /usr/lib/arm-linux-gnueabihf/mesa-egl/ld.so.conf
+update-alternatives 2017-07-20 23:23:58: link group arm-linux-gnueabihf_egl_conf fully removed
+update-alternatives 2017-07-20 23:23:58: run with --remove arm-linux-gnueabihf_gl_conf /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf
+update-alternatives 2017-07-20 23:23:58: link group arm-linux-gnueabihf_gl_conf fully removed
+update-alternatives 2017-07-29 15:53:50: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2017-07-29 15:53:50: link group rename updated to point to /usr/bin/prename
+update-alternatives 2017-07-29 15:53:50: run with --install /usr/bin/rename rename /usr/bin/file-rename 70 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/file-rename.1p.gz
+update-alternatives 2017-07-29 15:53:50: link group rename updated to point to /usr/bin/file-rename
