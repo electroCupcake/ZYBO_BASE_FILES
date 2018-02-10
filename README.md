@@ -11,8 +11,8 @@
 
 ## ---------ROOTFS---------
 ### ROOTFS: Contains a lzma archive with files needed for rootfs.
-* Use: sudo tar --lzma -xvpf /path/to/rootfs.tar.lzma -C /location/of/rootfs --numeric-owner
-* File: rootfs.tar.lzma, modified rootfs, added user, sudo, ifconfig and fixed bugs.
+* Use: sudo tar -xzvpf /path/to/rootfs.tar.gz -C /location/of/rootfs --numeric-owner
+* File: rootfs.tar.gz, modified rootfs, added user, sudo, ifconfig and fixed bugs.
 * File: ubuntu-base-16.04.2-base-armhf.tar.gz, original rootfs file system.
 
 ## -----------OS-----------
